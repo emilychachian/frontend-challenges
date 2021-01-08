@@ -1,21 +1,22 @@
-# Desafio Nodis - Frontend
+# Desafio Nodis - Frontend - Web - Júnior
 
-## Instruções Gerais
+## Como rodar o projeto
+* Clone o projeto (`$git clone https://github.com/emilychachian/frontend-challenges`)
 
-Faça um fork deste repositório no Github, desenvolva seu código nele e ao final nos envie a URL para que possamos avaliar o resultado do desafio. Utilize o README para nos passar quaisquer informações que julgar interessante/necessárias como rodar o projeto, decisões tomadas, etc.
+## Utilizando npm? 
+1. `$cd frontend-challenges`
+2. `$npm install`
+3. `$npm run database --p 3001`
+4. `$cd app`
+5. `$npm install`
+6. `$npm start`
 
-Não definimos um tempo para o desafio ser feito, **é você quem deve nos passar uma data limite para a entrega do desafio**.
+## Utilizando yarn? 
+1. `$cd frontend-challenges`
+2. `$yarn`
+3. `$yarn database --p 3001`
+4. `$cd app`
+5. `$yarn`
+6. `$yarn start`
 
-## Selecione o desafio de acordo com a sua área e nível de senioridade
-
-### Mobile
-
-- [Júnior](./docs/challenge-mobile-junior.md)
-- [Pleno](./docs/challenge-mobile-pleno.md)
-- [Sênior](./docs/challenge-mobile-senior.md)
-
-### Web
-
-- [Júnior](./docs/challenge-web-junior.md)
-- [Pleno](./docs/challenge-web-pleno.md)
-- [Sênior](./docs/challenge-web-senior.md)
+Você se conectará automaticamente na porta 3000 do host local. Caso isso não aconteça, abra `http://localhost:3000`
