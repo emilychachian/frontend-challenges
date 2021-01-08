@@ -1,4 +1,4 @@
-# Desafio Nodis - Frontend
+# Desafio Nodis - Frontend Web - Júnior
 
 ## Instruções Gerais
 
