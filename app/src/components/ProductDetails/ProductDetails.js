@@ -1,6 +1,6 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
-import ProductDetailCard from "../ProductDetailCard/ProductDetailCard";
+import ProductDetailsCard from "../ProductDetailsCard/ProductDetailsCard";
 import { Title } from "./styles";
 import { useHistory, useParams } from "react-router-dom";
 import priceFormatter from "../../utils/priceFormatter";
