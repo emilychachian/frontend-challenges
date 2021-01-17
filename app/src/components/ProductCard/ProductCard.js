@@ -8,7 +8,6 @@ import {
     Name,
     Price,
     Image,
-    PriceContainer,
     PromotionalPrice,
     Strike,
   } from "./styles";
@@ -26,21 +25,21 @@ export default function ProductCard({ id, name, imageUrl, salePrice, promotional
             <ProductContainer>
                 <Name>{name}</Name>
 
-            <PriceContainer>
+            <div>
                 {promotionalPrice &&
                 promotionalPrice < salePrice ? (
                     <PromotionalPrice>
-                        {quantity} x R${" "}
+                        {quantity} x {" "}
                     <Strike>
                         {priceFormatter(salePrice)}
                     </Strike>{" "}
-                        por R$ {priceFormatter(promotionalPrice)}
+                        por {priceFormatter(promotionalPrice)}
                     </ PromotionalPrice>
                 ) : (
-                    <Price>{quantity} X R$ {priceFormatter(salePrice)}</Price>
+                    <Price>{quantity} X {priceFormatter(salePrice)}</Price>
              )}
 
-            </PriceContainer>
+            </div>
             </ProductContainer>
         </Container>
     );

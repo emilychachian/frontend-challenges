@@ -4,10 +4,10 @@ export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
   display: flex;
+  cursor: pointer;
 `;
 
 export const ImageContainer = styled.div`
-  cursor: pointer;
   width: 20%;
 `;
 
@@ -22,7 +22,6 @@ export const ProductContainer = styled.div`
   `;
 
 export const Name = styled.p`
-  cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -30,8 +29,8 @@ export const Name = styled.p`
 `;
 
 export const Image = styled.img`
-  width: 80%;
-  height: 70%;
+  width: 50%;
+  height: 50%;
   border: 1px solid #DFE4E8;
   display: flex;
   margin: 18% 0 10% 11px;
@@ -43,10 +42,6 @@ export const Price = styled.span`
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
-`;
-
-export const PriceContainer = styled.div`
-  cursor: pointer;
 `;
 
 export const PromotionalPrice = styled.span`
