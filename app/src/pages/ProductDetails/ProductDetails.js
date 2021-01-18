@@ -157,6 +157,15 @@ export default function ProductDetails() {
         setProduct(productToUpdate);
     }
 
+       function handlePackageDimensions(event) {
+        const { name, value } = event.target;
+        const productToUpdate = {...product};
+
+        productToUpdate.package[name] = value;
+
+        setProduct(productToUpdate);
+    }
+
     return (
         <>
             <ReturnButton type="button" onClick={() => history.push('/')}>
@@ -206,7 +215,7 @@ export default function ProductDetails() {
 
                                 <PriceInput
                                     id="salePrice"
-                                    placeholder="R$ 100,00"
+                                    placeholder="R$ 39,90"
                                     type="number"
                                     step="any"
                                     name="salePrice"
@@ -220,7 +229,7 @@ export default function ProductDetails() {
 
                                 <PriceInput
                                     id="promotionalPrice"
-                                    placeholder="R$ 100,00"
+                                    placeholder="R$ 34,90"
                                     type="number"
                                     step="any"
                                     name="promotionalPrice"

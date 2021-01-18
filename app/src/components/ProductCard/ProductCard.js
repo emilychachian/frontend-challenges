@@ -29,14 +29,14 @@ export default function ProductCard({ id, name, imageUrl, salePrice, promotional
                 {promotionalPrice &&
                 promotionalPrice < salePrice ? (
                     <PromotionalPrice>
-                        {quantity} x {" "}
+                        {quantity} x R${" "}
                     <Strike>
                         {priceFormatter(salePrice)}
                     </Strike>{" "}
-                        por {priceFormatter(promotionalPrice)}
+                        por R${priceFormatter(promotionalPrice)}
                     </ PromotionalPrice>
                 ) : (
-                    <Price>{quantity} X {priceFormatter(salePrice)}</Price>
+                    <Price>{quantity} X R${priceFormatter(salePrice)}</Price>
              )}
 
             </div>
