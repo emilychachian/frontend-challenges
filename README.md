@@ -13,7 +13,7 @@ A proposta do desafio é criar uma aplicação web utilizando React que permita 
 * Clone o projeto (`$git clone https://github.com/emilychachian/frontend-challenges`)
 
 ## Utilizando npm? 
-1. `$cd frontend-challenges`
+1. `$cd graphql-react`
 2. `$npm install` para instalar as dependências necessárias para a API
 3. `$npm run database --p 3001` para subir a API 
 4. `$cd app` 
@@ -21,7 +21,7 @@ A proposta do desafio é criar uma aplicação web utilizando React que permita 
 6. `$npm start` para abrir o projeto na porta 3000 do host local 
 
 ## Utilizando yarn? 
-1. `$cd frontend-challenges`
+1. `$cd graphql-react`
 2. `$yarn` para instalar as dependências necessárias para a API
 3. `$yarn database --p 3001` para subir a API
 4. `$cd app`
